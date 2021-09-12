@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c9d45533-4d6b-4beb-8dc3-3ffaacfda0e6">
+  <name>си_ОтключениеКонтроляОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключение контроля остатков</value>
+  </synonym>
+  <comment>Расширение отключает контроль остатков. Юрченко А.</comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5d0df585-971f-42e1-87f5-0468a112ed23"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="eedd2aa3-3833-4178-8153-f2530bd611be"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="81cc1e0d-945d-41aa-9143-9a0ed3a1962f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c02e405b-909f-4fee-8b81-b2fe6a13f5fc"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0dccc373-5641-4639-9787-ee68c51981ef"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="8b325403-3011-4ffb-83cc-979790a289df"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="47aad04f-24e0-44b1-89a4-455906be69d1"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>сиОтклКонтрОст_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>АО &quot;Синимекс-Информатика&quot;</vendor>
+  <version>1.0</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="65efb5d2-1c9e-45dc-8335-0258ddb19f60" extendedConfigurationObject="0663bf5b-bcba-4a40-a862-a0b3baa2d884">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <sessionParameters>SessionParameter.ПроводитьБезКонтроляОстатковТоваровОрганизаций</sessionParameters>
+  <commonModules>CommonModule.ПроведениеДокументов</commonModules>
+  <documents>Document.ЭтапПроизводства2_2</documents>
+</mdclass:Configuration>

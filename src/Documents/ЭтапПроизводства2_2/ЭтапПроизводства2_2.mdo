@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a38c7066-fe8c-4ca2-90ee-63f49bac6506" extendedConfigurationObject="03503ac6-a4b9-4d70-b0ef-949dac7b8de4">
+  <producedTypes>
+    <objectType typeId="08df2096-3745-4975-87aa-b824e892a39c" valueTypeId="582826f8-72c9-40b6-9fee-a4d1c6b5d502"/>
+    <refType typeId="dae189d3-3349-45a4-9089-cc2061dbbf0b" valueTypeId="7c7d205e-3c2c-4a3f-9cc0-eaed96608e82"/>
+    <selectionType typeId="3b504a56-2b6a-4a9c-a9ef-5f2969797a14" valueTypeId="be7bfd51-2a73-4480-aa15-25a5b3e2e459"/>
+    <listType typeId="ebb62156-5860-4706-810f-3cdfad5ef643" valueTypeId="144eb52f-10d0-4b39-8f40-20ae5b91c4e8"/>
+    <managerType typeId="736d6ec9-1444-4b85-9219-8bebbf4886a4" valueTypeId="87e2c63f-9fad-4752-bba8-1a40c73f0453"/>
+  </producedTypes>
+  <name>ЭтапПроизводства2_2</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:Document>
